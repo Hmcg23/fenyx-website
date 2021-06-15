@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+:root{
+    --black: rgb(49, 49, 49);
+    --dark-black: rgb(30, 30, 30);
+    --blue: rgb(69, 181, 201);
+}
+
+
+
+.sidenav{
+    padding-top: 60px;
+    box-shadow: 6px 6px 6px rgb(0 0 0 / 25%);
+    background-color: var(--black);
+    height: 100%;
+    width: 200px;
+    overflow-x: hidden;
+    font-family: "Recursive", 'Times New Roman', Times, serif; 
+    text-align: center;
+    position: fixed;
+    z-index: 10;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    display: inline-block;
+    color: white;
+    margin: 40px 50px 30px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+
+}
+
+.sidenav a:hover{
+    color: var(--black);
+    transition-duration: 0.4s;
+    background-color: white;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.open{
+    position: fixed;
+    font-size: 30px;
+    font-family: "Recursive", 'Times New Roman', Times, serif;
+    left: 20px;
+    top: 20px;
+    border: 2px solid white;
+    background-color: var(--blue);
+    padding: 6px;
+    border-radius: 8px;
+    transition: 0.4s;
+    z-index: 9;
+}
+
+.open:hover{
+    background-color: var(--black);
+    border-color: var(--blue);
+    transition: 0.4s;
+    cursor:pointer;
+}
+
+
+body{
+    background-color: var(--dark-black);
+}
+
+.header{
+    font-size: 6em;
+    text-align: center;
+    font-family: "Recursive", 'Times New Roman', Times, serif;
+    font-weight: 500;
+
+}
+
+.text{
+    text-align: center;
+    font-family: "Recursive", 'Times New Roman', Times, serif;
+}
+
+
+
+.button{
+    font-family: "Recursive", 'Times New Roman', Times, serif;
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    background-color: white;
+    color: var(--black);
+    border: 3px solid var(--black);
+
+}
+
+nav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 30px;
+    margin-left: 70px;
+    border: none;
+
+}
+
+
+main > #home > #pheonix{
+    text-align: center;
+    padding-top: 100px;
+}
+
+body #bg{
+    height: 100%;
+    width: 100%;
+    background-color: var(--blue);
+    clip-path: polygon(50% 0%, 100% 0, 100% 20%, 0 60%, 0 0);
+    position: absolute;
+    z-index: -1;
+
+}
+
+
+a.button{
+    text-align: center;
+}
+
+#banner{
+    margin-top: 2.5em;
+    margin-bottom: 0.75em;
+    font-size: 5.5em;
+    background-color: var(--blue);
+    font-weight: 700;
+}
+
+#banner2{
+    margin-bottom: 70px;
+    font-size: 5.5em;
+    background-color: var(--blue);
+    font-weight: 700;
+}
+
+#banner3{
+    margin-top: 510px;
+    margin-bottom: 70px;
+    font-size: 100px;
+    background-color: var(--blue);
+    font-weight: 700;
+}
+
+
+#banner4{
+    margin-top: 235px;
+    margin-bottom: 70px;
+    font-size: 100px;
+    background-color: var(--blue);
+    font-weight: 700;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 100px;
+    width: 1px;
+    height: auto;
+}
+
+.grid-item{
+    transition: 0.4s;
+    text-decoration: none;
+    font-family: "Recursive", 'Times New Roman', Times, serif;
+    width: 300px;
+    height: auto;
+
+}
+
+
+.grid-item:hover{
+    transition: 0.4s;
+    color: var(--blue)
+}
+
+.nothing-yet{
+    font-size: 50px;
+    font-family: "Recursive", 'Times New Roman', Times, serif;
+    position: relative;
+    top: 220px;
+}
+
+#main {
+  transition: .5s;
+}
+
+#about-me-text{
+    margin-top: 200px;
+    font-size: 30px;
+    margin-left: 30px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+
+@media only screen and (max-width:600px){
+    .grid-container{
+        display: block;
+    }
+    .open{
+        width: 50px;
+        font-size: 15px;
+    }
+}
