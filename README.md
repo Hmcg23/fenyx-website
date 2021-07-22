@@ -14,7 +14,7 @@ Project is created with:
 * Css
 	
 ## Setup
-To view this project, click the link here: https://hmcg23.github.io/fenyx-website/
+To view this project, click the link [here](https://hmcg23.github.io/fenyx-website/)
 
 ## Other Info
 This project is currently incomplete
