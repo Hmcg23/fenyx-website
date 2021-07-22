@@ -1,3 +1,19 @@
-# fenyx-website ( in progress )
-# welcome to my webiste :). This is my first mini-project that i have made. I'm currently experimenting with git, and seeing what i can create.
-# This website contains a little bit about me, some of my projects, and more.
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Other Info](#other-info)
+
+## General info
+This project is a simple portfolio type website that I create
+	
+## Technologies
+Project is created with:
+* Javascript
+* Html
+* Css
+	
+## Setup
+To view this project, click the link here: https://hmcg23.github.io/fenyx-website/
+
+## Other Info
